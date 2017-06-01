@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: username/repository:tag
+    image: madpole/sdr:docker_basics
     deploy:
       replicas: 5
       resources:
